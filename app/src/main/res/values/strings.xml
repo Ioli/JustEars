@@ -1,0 +1,34 @@
+<resources>
+    <!-- Title for the application. [CHAR LIMIT=12] -->
+    <string name="app_name">JustEars</string>
+
+    <!-- Category name for the just for ears library for audiobooks [CHAR LIMIT=20] -->
+    <string name="txt_listenbooks">AudioBooks</string>
+
+    <!-- Category name for the just for ears library for audiopoetry[CHAR LIMIT=20] -->
+    <string name="txt_listenpoetry">AudioPoetry</string>
+
+    <!-- Category name for the just for ears library for createaudio [CHAR LIMIT=20] -->
+    <string name="txt_createlistening">Create Audio</string>
+
+    <!-- Category name for the just for ears library for txtaudiobooks [CHAR LIMIT=20] -->
+    <string name="category_txtaudiobooks">***UNDER CONSTRUCTION***     We will present a list of literal audiobooks retrieved from data base named dbLibAudioFiles. Audio books will be creations of users and downloaded audios from internet.
+You will choose one book from the list and tapping the PLAY button you can listen the audio with MediaPlayer(public constructor) to play the audio back.
+</string>
+
+    <!-- Button name for the just for ears to play audio for createaudio [CHAR LIMIT=20] -->
+    <string name="btn_playNow">PLAY</string>
+
+    <!-- Category name for the just for ears library for txtaudiopoetry [CHAR LIMIT=20] -->
+    <string name="category_txtaudiopoetry">***UNDER CONSTRUCTION***     We will present a list of poems as audiopoems retrieved from data base named dbLibAudioFiles. Audio poems will be creations of users and downloaded audios from internet .
+You will choose one poem from the list and tapping the PLAY button you can listen the audio with MediaPlayer(public constructor) to play the audio back.
+</string>
+
+    <!-- Category name for the just for ears library for txtcreateaudio [CHAR LIMIT=20] -->
+    <string name="category_txtcreateaudio">***UNDER CONSTRUCTION***     We will present a way to record every user his voice. Using MediaRecorder to record an audio file and calling start() and stop() respectively. Then the new audio files will stored to the data base dbLibAudioFiles.
+
+</string>
+
+    <!-- Button name for the just for ears to record voice for createaudio [CHAR LIMIT=20] -->
+    <string name="btn_recNow">REC</string>
+</resources>

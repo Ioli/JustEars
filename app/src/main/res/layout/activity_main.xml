@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!---
+    * Copyright (C) 2017 The Android Open Source Project
+    * This app "JustEars" is for disabled people that wants to read books
+    * but their eyes can't watch good but their ears are ok.
+    * Is created with android studio 2.3.1
+    * as exercise for Android Basics by Google Nanodegree Program
+    * "Musical Structure project " by Dimitra Christina Nikolaidou
+    */
+-->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/tan_background"
+    android:orientation="vertical"
+    tools:context="com.example.admin.justears.MainActivity" >
+
+   <TextView
+     android:id="@+id/view_listenbooks"
+     style="@style/CategoryStyle"
+     android:background="@color/col_listenbooks"
+     android:text="@string/txt_listenbooks" />
+
+
+   <TextView
+      android:id="@+id/view_listenpoetry"
+      style="@style/CategoryStyle"
+      android:background="@color/col_listenpoetry"
+      android:text="@string/txt_listenpoetry" />
+
+   <TextView
+      android:id="@+id/view_createlistening"
+      style="@style/CategoryStyle"
+      android:background="@color/col_createlistening"
+      android:text="@string/txt_createlistening" />
+
+    </LinearLayout>
+
+
+
